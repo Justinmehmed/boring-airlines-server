@@ -1,0 +1,2 @@
+class BoringAirline < ApplicationRecord
+end
