@@ -1,2 +1,0 @@
-class BoringAirline < ApplicationRecord
-end

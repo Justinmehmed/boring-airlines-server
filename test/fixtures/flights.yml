@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2020-11-04
+  flightnumber: 1
+  departure: MyString
+  arrival: MyString
+  plane: 1
+  seat: 1
+
+two:
+  date: 2020-11-04
+  flightnumber: 1
+  departure: MyString
+  arrival: MyString
+  plane: 1
+  seat: 1
