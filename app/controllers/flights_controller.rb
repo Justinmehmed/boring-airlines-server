@@ -24,7 +24,7 @@ class FlightsController < ApplicationController
   # POST /flights
   # POST /flights.json
   def create
-    @flight = current_user.flights.build(boring_airline_params)
+    @flight = current_user.flights.build(flight_params)
 
     respond_to do |format|
       if @flight.save

@@ -38,7 +38,7 @@
 
   <div class="field">
     <%= form.label :seat %>
-    <%= form.number_field :seat %>
+    <%= form.number_field :seat, within: 1..19 %>
   </div>
 
   <div class="actions">
