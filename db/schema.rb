@@ -24,7 +24,9 @@ ActiveRecord::Schema.define(version: 2020_11_04_231842) do
     t.date "date"
     t.integer "flightnumber"
     t.string "departure"
+    t.string "departureTime"
     t.string "arrival"
+    t.string "arrivalTime"
     t.integer "plane"
     t.integer "seat"
     t.datetime "created_at", null: false

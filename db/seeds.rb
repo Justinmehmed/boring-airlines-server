@@ -6,9 +6,9 @@ u3 = User.create :email => "bastien@ga.com", :password => "chicken"
 puts "#{ User.count }"
 
 Flight.destroy_all
-f1 = Flight.create :date => "2020-11-05", :flightnumber => "1000", :departure => "SYD" , :arrival => "JFK", :plane => "1", :seat => "20"
-f2 = Flight.create :date => "2020-11-06", :flightnumber => "500", :departure => "SYD" , :arrival => "JFK", :plane => "1", :seat => "20"
-f3 = Flight.create :date => "2020-11-07", :flightnumber => "1500", :departure => "SYD" , :arrival => "JFK", :plane => "1", :seat => "20"
+f1 = Flight.create :date => "2020-11-05", :flightnumber => "1000", :departure => "SYD" , :departureTime => "7:00", :arrival => "JFK", :arrivalTime => "20:00",:plane => "1", :seat => "15"
+f2 = Flight.create :date => "2020-11-06", :flightnumber => "500", :departure => "SYD", :departureTime => "5:00", :arrival => "JFK", :arrivalTime => "17:00",:plane => "1", :seat => "15"
+f3 = Flight.create :date => "2020-11-07", :flightnumber => "1500", :departure => "SYD", :departureTime => "5:00", :arrival => "JFK", :arrivalTime => "10:00", :plane => "1", :seat => "15"
 
 puts "#{ Flight.count}"
 
